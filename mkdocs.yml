@@ -1,7 +1,7 @@
 # Project information
 site_name: 'IoTaaP OS'
 site_description: 'IoTaaP OS Docs'
-repo_url: https://github.com/iotaap/iotaap-os.git
+repo_url: 'https://github.com/iotaap/docs-iotaap-os'
 nav:
         - Home: index.md
         - SD Card: sd-card.md
