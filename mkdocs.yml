@@ -1,0 +1,52 @@
+# Project information
+site_name: 'IoTaaP OS'
+site_description: 'IoTaaP OS Docs'
+repo_url: https://github.com/iotaap/iotaap-os.git
+nav:
+        - Home: index.md
+        - SD Card: sd-card.md
+        - Config File: config-file.md
+        - Custom Config File: custom-config.md
+        - Configuration wizard: config-wizard.md
+        - Certificates: certificates.md
+        - Logs: logs.md
+        - Logs via MQTT: logs-mqtt.md
+        - Device Status: device-status.md
+        - OTA Updates: ota-update.md
+        - IoTaaP_OS Class: iotaap-os-class.md
+        - Functions: functions.md
+        - Building: building.md
+        - License: license.md
+        
+# Uncomment if documents are local
+#use_directory_urls: false
+
+copyright: 'Copyright &copy; IoTaaP'
+
+theme: 
+    name: material
+    palette:
+        primary: 'light-blue'
+        accent: 'deep-purple'
+    logo: 'images/logo.png'
+    favicon: 'images/favicon.png'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/iotaap
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iotaap
+      name: Twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/iotaap
+      name: Facebook
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCC9hU3ndh6bh-LbW3YjI98g
+      name: YouTube
