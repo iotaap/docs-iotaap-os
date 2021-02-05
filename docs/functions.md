@@ -111,6 +111,7 @@ Creates structured parameter and publishes it to params topic (`/<username>/devi
 
 ```json
 {
+  "device_id" : "5e4ecaae0ed7ef47c0e0ede3",
   "name": "myParam",
   "value": 98,
   "time": "2020-08-19 01:50:48",
@@ -121,6 +122,7 @@ Creates structured parameter and publishes it to params topic (`/<username>/devi
 
 #### Structured parameter keys
 
+- **device_id** - Device ID
 - **name** - Your parameter name (string type)
 - **value** - Your parameter value (can be any JSON valid data type)
 - **time** - Current system time
