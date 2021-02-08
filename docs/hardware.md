@@ -22,6 +22,8 @@ IoTaaP OS uses predefined peripheral configuration, and we strongly recommend to
  | IO5     | CS                | 3.3V level                              |
  | IO36    | BATTERY SENS.     | Use voltage divider and Li-Ion battery* |
  | IO2     | LED               | Use 330R resistor and green LED*        |
+ | TXD0    | Serial TX         | Standard 3.3V level serial interface    |
+ | RXD0    | Serial RX         | Standard 3.3V level serial interface    |
 
 !!! warning "Note"
     **Battery sensing** circuit should have a dividing coefficient of ***Vin/2***, we recommend using 4k7 resistors. Battery should have max voltage of 4.2V,
