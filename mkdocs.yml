@@ -4,6 +4,7 @@ site_description: 'IoTaaP OS Docs'
 repo_url: 'https://github.com/iotaap/docs-iotaap-os'
 nav:
         - Home: index.md
+        - Hardware: hardware.md
         - SD Card: sd-card.md
         - Config File: config-file.md
         - Custom Config File: custom-config.md

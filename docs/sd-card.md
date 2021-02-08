@@ -1,7 +1,8 @@
 # SD Card Filesystem
 
-SD Card is the vital part of IoTaaP OS and device will not be able to boot if SD card with preloaded filesystem structure is
-not present in the SD card slot.
+!!! warning "Warning"
+    SD Card is the vital part of IoTaaP OS and device will not be able to boot if SD card with preloaded filesystem structure is
+    not present in the SD card slot.
 
 All configuration files are loaded from SD card which must contain predefined file structure, certificate, configurations, etc. 
 SD card is the vital part of the whole system, used as temporary storage, backup storage, long-term storage, operational storage, etc. 
