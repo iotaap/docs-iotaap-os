@@ -33,5 +33,7 @@ IoTaaP OS file system structure must be burned to the SD card before usage.
 - **home/iotaap/data.log** is temporary file that will contain dropped data (e.g. if connection was lost) that will be removed after being successfully published
 - **var/log/SYS#####.log** will contain system logs in multiple files limited to 50MB per file, oldest file will be dropped when total log size is greather than 2GB
 
+[Download FS Structure](https://files.iotaap.io/assets/iotaap-os/assets/fs_structure.zip) and extract it to your SD card.
+
 !!! warning "SD Card Size"
     In order for your system to work properly micro SD card size should not be less then 4GB
