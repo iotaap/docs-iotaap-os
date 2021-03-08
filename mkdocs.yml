@@ -16,6 +16,7 @@ nav:
         - OTA Updates: ota-update.md
         - IoTaaP_OS Class: iotaap-os-class.md
         - Functions: functions.md
+        - Publishing the Library: publishing.md
         - Building the Library: building.md
         - Starting a Project: starting-project.md
         - License: license.md
