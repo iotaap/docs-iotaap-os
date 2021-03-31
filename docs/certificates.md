@@ -1,6 +1,7 @@
 # Certificates
 
-For normal system operation SD card must contain active CA certiciate in **etc/ssl/certs** directory. 
+For normal system operation internal filesystem must contain active CA certiciate. Certificate can be uploaded by using
+IoTaaP OS Web Configurator.
 
 ## Certificates
 Device to cloud communication (and vice versa) is fully encrypted with modern encryption technologies. Our servers

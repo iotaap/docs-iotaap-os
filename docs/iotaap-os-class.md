@@ -11,6 +11,7 @@
 
 | **Function**            | **Type** | **Description**                                                                                          |
 | ----------------------- | -------- | -------------------------------------------------------------------------------------------------------- |
+| start                   | void     | Starts IoTaaP OS                                                                                         |
 | startWifi               | void     | Connects device to WiFi AP                                                                               |
 | startMqtt               | void     | Starts MQTT thread and connects to MQTT broker                                                           |
 | deviceCloudPublish      | int      | Publishes data to device topic (`/<username>/devices/<device-id>/<topic>`)                               |
@@ -19,6 +20,5 @@
 | basicUnsubscribe        | int      | Unsubscribes from the topic                                                                              |
 | deviceCloudPublishParam | int      | Creates structured parameter and publishes it to params topic (`/<username>/devices/<device-id>/params`) |
 | writeToSystemLogs       | void     | Writes data to the system log                                                                            |
-| getUserParameter        | bool     | Gets custom parameter from custom.cfg                                                                    |
 | getSystemParameter      | bool     | Gets system parameter from default.cfg                                                                   |
 | checkForUpdates         | void     | Triggers checking for updates                                                                            |

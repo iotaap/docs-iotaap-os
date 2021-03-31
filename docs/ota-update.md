@@ -1,5 +1,8 @@
 # OTA Update
 
+!!! info "Remote flashing"
+    From IoTaaP OS varsion 4, remote flashing is supported. By using IoTaaP console firmware can be flashed remotely in real time. More info can be found in the [tutorial](https://docs.iotaap.io/docs-tutorials/iotaap-cloud-remote-flash/)
+
 IoTaaP OS implements OTA Updates feature that can be optionally enabled or disabled. This feature gives you the possibility to upgrade your device(s) firmware through IoTaaP console interface. 
 
 After uploading new `firmware.bin` file through IoTaaP console interface and defining different version (e.g. 1.0.2 to 1.0.3) your device (or devices, in case of group OTA Update) will start with firmware download and upgrade process. 

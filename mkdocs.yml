@@ -5,9 +5,11 @@ repo_url: 'https://github.com/iotaap/docs-iotaap-os'
 nav:
         - Home: index.md
         - Hardware: hardware.md
+        - Internal FS: internal-fs.md
         - SD Card: sd-card.md
         - Config File: config-file.md
         - Custom Config File: custom-config.md
+        - Web configurator: web-configurator.md
         - Configuration wizard: config-wizard.md
         - Certificates: certificates.md
         - Logs: logs.md

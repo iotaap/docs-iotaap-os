@@ -1,5 +1,11 @@
 # IoTaaP OS functions
 
+### void start()
+Starts IoTaaP OS. Has to be called before any other function
+
+#### Returns
+- `(int)` Returns 0 if successfull
+
 ### void startWifi()
 Connects device to WiFi AP 
 
@@ -140,23 +146,8 @@ Writes data to the system log with `USER` tag
 
 - **data** - Data to be logged
 
-### bool getUserParameter()
-Gets custom parameter from custom.cfg file on SD card
-
-#### Parameters
-
-- **element** - Parameter name
-- **output** - Destination (can be `char`, `int` or `bool` type)
-
-#### Returns
-- `(bool)` Returns `true` if parameter exists or `false` if not
-
-!!! warning "JSON format"
-    custom.cfg file content must be valid JSON formatted data. System does not support JSON arrays or 
-    similar complex data types!
-
 ### bool getSystemParameter()
-Gets system parameter from default.cfg on SD card
+Gets system parameter from default.cfg on internal filesystem
 
 #### Parameters
 

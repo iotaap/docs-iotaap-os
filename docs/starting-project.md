@@ -18,14 +18,14 @@ lib_deps =
 
      # RECOMMENDED
      # Accept new functionality in a backwards compatible manner and patches
-     iotaap/IoTaaP OS @ ^3.0.1
+     iotaap/IoTaaP OS @ ^4.0.0
 
      # Accept only backwards compatible bug fixes
      # (any version with the same major and minor versions, and an equal or greater patch version)
-     iotaap/IoTaaP OS @ ~3.0.1
+     iotaap/IoTaaP OS @ ~4.0.0
 
      # The exact version
-     iotaap/IoTaaP OS @ 3.0.1
+     iotaap/IoTaaP OS @ 4.0.0
 
 ```
 
