@@ -5,7 +5,7 @@ Starting from IoTaaP OS version 4, system uses internal FAT filesystem for stori
 ## IoTaaP OS Web Configurator
 
 All system configuration can be set-up using IoTaaP OS Web configurator. During initial boot (first boot) system will automatically
-start web configurator. System parameters can be also adjusted by using [serial configurator](config-config-wizard.md).
+start web configurator. System parameters can be also adjusted by using [serial configurator](config-wizard.md).
 
 ## Custom partitions
 
