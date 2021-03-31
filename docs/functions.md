@@ -3,14 +3,9 @@
 ### void start()
 Starts IoTaaP OS. Has to be called before any other function
 
-#### Returns
-- `(int)` Returns 0 if successfull
 
 ### void startWifi()
 Connects device to WiFi AP 
-
-#### Returns
-- `(int)` Returns 0 if successfull
 
 ### void startMqtt()
 
